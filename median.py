@@ -14,7 +14,7 @@ def mean(num1,num2):
     return (num1+num2)/2
 
 numbers = sorted(numbers)
-size = numbers.length()
+size = len(numbers)
 if size %2 ==1:
     print(numbers[(size-1)/2])  
 else:
