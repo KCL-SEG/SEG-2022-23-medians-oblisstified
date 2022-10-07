@@ -18,6 +18,6 @@ size = len(numbers)
 if size %2 ==1:
     print(numbers[(size-1)//2])  
 else:
-    print(mean(numbers[(size//2)-1],numbers[(size//2)-2]))
+    print(mean(numbers[(size//2)-1],numbers[(size//2)]))
     
 #print(numbers)
